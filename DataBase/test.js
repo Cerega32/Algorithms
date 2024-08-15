@@ -1,5 +1,4 @@
-const findDuplicate = require("./solution");
-
+import { findDuplicate } from "./solution";
 
 test('should return 3 for the input [3, 1, 3, 4, 2]', () => {
     const input = [3, 1, 3, 4, 2];

@@ -1,4 +1,4 @@
-const removeZeros = require("./solution");
+import { removeZeros } from "./solution";
 
 test('Удаление нулей', () => {
     expect(removeZeros([-1, 0, 1, 2, 0, 1, -1, -4])).toEqual([-1, 1, 2, 1, -1, -4]);
